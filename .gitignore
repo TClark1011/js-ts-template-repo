@@ -1,0 +1,17 @@
+# Folders
+node_modules
+dist
+build
+
+# Personal Configs
+.gitconfig
+.vscode/settings.json
+
+# Private Environments
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
