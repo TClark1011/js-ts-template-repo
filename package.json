@@ -1,0 +1,9 @@
+{
+  "name": "js-ts-template-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TClark1011/js-ts-template-repo.git",
+  "author": "Thomas Clark <thomassiclark@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
