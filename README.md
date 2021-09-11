@@ -1,7 +1,18 @@
 TODO
-- [ ] Check commit message quality
-- [ ] Lint on commit
-- [ ] Commitizen commit generator
+- [x] Check commit message quality
+- [x] Lint on commit
+- [x] Commitizen commit generator
+- [ ] Get `--retry` working (try using `cz-customizable` instead of `git-cz`)
+- [ ] Commitizen Changelog generator
 - [ ] Test on PR
 - [ ] Version Bump on Merge
 - [ ] Document extra steps (add scripts/dependencies setting up prettier + eslint)
+	- `yarn add --dev @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen git-cz`
+  	- Go into dependencies in package and add `^` to `husky` then re-run `yarn`
+	- `yarn set-script prepare "husky install"`
+	- `yarn set-script pre-commit "git cz"`
+	- `yarn run commitizen init cz-conventional-changelog`
+    	- Set commitizen `path` in `package.json` to `git-cz`    - Delete `package-lock.json`
+    	- run `yarn`
+- [ ] Document Customisation
+  - Scopes - change `scopes` field in `changelog.config.js`
