@@ -1,6 +1,6 @@
 TODO
-- [x] Check commit message quality
-- [x] Lint on commit
+- [ ] Check commit message quality
+- [ ] Lint on commit
 - [x] Commitizen commit generator
 - [x] Get `--retry` working (try using `cz-customizable` instead of `git-cz`)
 - [ ] Commitizen Changelog generator
@@ -10,9 +10,9 @@ TODO
 	- `yarn add --dev @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
   	- Go into dependencies in package and add `^` to `husky` then re-run `yarn`
 	- `yarn set-script prepare "husky install"`
-	- `yarn set-script pre-commit "git cz"`
+	- `yarn set-script pre-commit "cz"`
 	- `yarn run commitizen init cz-conventional-changelog`
-    	- Set commitizen `path` in `package.json` to `git-cz`    - Delete `package-lock.json`
+    	- Set commitizen `path` in `package.json` to `node_modules/cz-customizable`    - Delete `package-lock.json`
     	- run `yarn`
 - [ ] Document Customisation
   - Scopes - change `scopes` field in `changelog.config.js`
