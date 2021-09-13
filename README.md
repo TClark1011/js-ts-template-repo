@@ -1,9 +1,9 @@
 TODO
-- [ ] Check commit message quality
-- [ ] Lint on commit
+- [x] Check commit message quality
+- [x] Lint on commit
 - [x] Commitizen commit generator
 - [x] Get `--retry` working (try using `cz-customizable` instead of `git-cz`)
-- [ ] Commitizen Changelog generator
+- [x] Standard Version
 - [ ] Test on PR
 - [ ] Version Bump on Merge
 - [ ] Document extra steps (add scripts/dependencies setting up prettier + eslint)
