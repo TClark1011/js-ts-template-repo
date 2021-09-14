@@ -1,2 +1,11 @@
-- name: Automated Version Bump
-  uses: phips28/gh-action-bump-version@v8.0.18
+name: Versioning
+on: 
+  push:
+    branches:
+      - master
+jobs:
+  Version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Automated Version Bump
+        uses: phips28/gh-action-bump-version@v8.0.18
