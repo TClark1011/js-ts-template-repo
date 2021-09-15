@@ -21,7 +21,8 @@
 		"pre-commit": "lint-staged",
 		"commit": "cz",
 		"release": "standard-version",
-		"fix-husky": "npx husky set .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"' & npx husky set .husky/pre-commit 'npm run pre-commit'"
+		"fix-husky": "npx husky set .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"' & npx husky set .husky/pre-commit 'npm run pre-commit'",
+		"test": "echo 'testing'"
 	},
 	"config": {
 		"commitizen": {
