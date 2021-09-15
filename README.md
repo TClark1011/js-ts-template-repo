@@ -4,9 +4,9 @@ TODO
 - [x] Commitizen commit generator
 - [x] Get `--retry` working (try using `cz-customizable` instead of `git-cz`)
 - [x] Standard Version
-- [ ] Test on PR
+- [x] Test on PR
 - [ ] Version Bump on Merge
-- [ ] Document extra steps (add scripts/dependencies setting up prettier + eslint)
+- [ ] Document setup steps (add scripts/dependencies setting up prettier + eslint)
 	- `yarn add --dev @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
   	- Go into dependencies in package and add `^` to `husky` then re-run `yarn`
 	- `yarn set-script prepare "husky install"`
@@ -16,3 +16,5 @@ TODO
     	- run `yarn`
 - [ ] Document Customisation
   - Scopes - change `scopes` field in `changelog.config.js`
+- [ ] Document optional extra steps
+  - Eslint + prettier
