@@ -14,7 +14,9 @@ TODO
 	- `yarn run commitizen init cz-conventional-changelog`
     	- Set commitizen `path` in `package.json` to `node_modules/cz-customizable`    - Delete `package-lock.json`
     	- run `yarn`
+  	- `npx husky set .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"' & npx husky set .husky/pre-commit 'npm run pre-commit'`
 - [ ] Document Customisation
   - Scopes - change `scopes` field in `changelog.config.js`
 - [ ] Document optional extra steps
   - Eslint + prettier
+  - Deploy to NPM on merge
