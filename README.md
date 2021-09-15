@@ -18,3 +18,4 @@ TODO
   - Scopes - change `scopes` field in `changelog.config.js`
 - [ ] Document optional extra steps
   - Eslint + prettier
+  - Deploy to NPM on merge
