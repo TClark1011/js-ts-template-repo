@@ -27,7 +27,16 @@ with:
 		- 12
 		- 13
 		- 14
+```
 
-
----
+## Extra Scripts
+```json
+{
+  "release": "standard-version",
+  "fix-husky": "npx husky set .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"' & npx husky set .husky/pre-commit 'npm run    pre-commit'",
+  "clean":"yarn clean:modules & yarn clean:build & yarn clean:lock",
+  "clean:modules": "rm -r --force node_modules",
+  "clean:build": "rm -r --force build",
+  "clean:lock": "rm --force yarn.lock"
+}
 ```
