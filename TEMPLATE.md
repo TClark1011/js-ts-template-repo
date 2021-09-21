@@ -6,7 +6,7 @@
 - [x] Get `--retry` working (try using `cz-customizable` instead of `git-cz`)
 - [x] Standard Version
 - [x] Test on PR
-- [ ] Version Bump on Merge
+- [x] Version Bump on Merge
 - [ ] Delete files
   - `package.json`
   - `yarn.lock`
@@ -78,6 +78,9 @@ package-lock.json
 workflow
 ```
 
+- **Skip Release:** You can skip 
+
 ### Extra Steps
 
 - TODO: Prettier/ESLint
+- TODO: Add `no release` PR label to repo
