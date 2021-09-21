@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.2](https://github.com/TClark1011/js-ts-template-repo/compare/v1.4.1...v1.4.2) (2021-09-21)
+
+
+### Features
+
+* **workspace:** can now specify what version to release as with PR labels ([aeb1472](https://github.com/TClark1011/js-ts-template-repo/commit/aeb1472f0913f7ee316886fe29afb38ee900eda9))
+
 ### [1.4.1](https://github.com/TClark1011/js-ts-template-repo/compare/v1.4.0...v1.4.1) (2021-09-21)
 
 ## [1.4.0](https://github.com/TClark1011/js-ts-template-repo/compare/v1.3.0...v1.4.0) (2021-09-21)
