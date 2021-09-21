@@ -11,12 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: install # will run `yarn install` command
-      - run: git config --global user.email ""
+      - run: git config --global user.email "thomassiclark@gmail.com"
       - run: git config --global user.name "version bot"
-      - uses: borales/actions-yarn@v2.3.0
+      - uses: actions/setup-node@v2
         with:
-          cmd: release 
-      - run: git push --follow-tags origin main
+          node-version: '14'
+      - run: npm install
+      - run: npm run release
+      - run: git push
+
+  

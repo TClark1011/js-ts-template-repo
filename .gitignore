@@ -18,3 +18,6 @@ yarn-error.log*
 
 # Some CI tools may create a package-lock file so we ignore it since we use `yarn` in development
 package-lock.json 
+
+# Ignore workflow folder created by `act` 
+workflow
