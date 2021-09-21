@@ -1,3 +1,3 @@
 module.exports = {
-	scopes: ["workspace", "backend", "scripts", "frontend", "documentation"],
+	scopes: ["workspace", "backend", "scripts", "frontend"],
 };
