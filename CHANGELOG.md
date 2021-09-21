@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/TClark1011/js-ts-template-repo/compare/v1.3.0...v1.4.0) (2021-09-21)
+
+
+### Features
+
+* **workspace:** release script can now be skipped using `no release` label in PR ([6f815ee](https://github.com/TClark1011/js-ts-template-repo/commit/6f815eec2b7754a639fca44265ec3c2c82fe2e97))
+
 ## 1.3.0 (2021-09-21)
 
 
