@@ -1,6 +1,6 @@
 {
 	"name": "js-ts-template-repo",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"main": "index.js",
 	"repository": "https://github.com/TClark1011/js-ts-template-repo.git",
 	"author": "Thomas Clark <thomassiclark@gmail.com>",
@@ -14,6 +14,7 @@
 		"cz-customizable": "^6.3.0",
 		"husky": "^7.0.0",
 		"lint-staged": "^11.1.2",
+		"prettier": "^2.4.0",
 		"standard-version": "^9.3.1"
 	},
 	"scripts": {
@@ -21,7 +22,12 @@
 		"pre-commit": "lint-staged",
 		"commit": "cz",
 		"release": "standard-version",
-		"fix-husky": "npx husky set .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"' & npx husky set .husky/pre-commit 'npm run pre-commit'"
+		"fix-husky": "npx husky set .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"' & npx husky set .husky/pre-commit 'npm run pre-commit'",
+		"test": "echo 'testing'",
+		"clean": "yarn clean:modules & yarn clean:build & yarn clean:lock",
+		"clean:modules": "rm -r --force node_modules",
+		"clean:build": "rm -r --force build",
+		"clean:lock": "rm --force yarn.lock"
 	},
 	"config": {
 		"commitizen": {
