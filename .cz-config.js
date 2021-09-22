@@ -1,5 +1,7 @@
 const { scopes } = require("./changelog.config");
 
+const subjectLimit = 60;
+
 module.exports = {
 	types: [
 		{
@@ -52,7 +54,7 @@ module.exports = {
 		type: "Select the type of change that you're committing:",
 		scope: "Scope of this change:",
 		subject:
-			"Write a SHORT, IMPERATIVE tense description of the change (max: 72chars):\n",
+			`Write a SHORT, IMPERATIVE tense description of the change (max: ${subjectLimit}chars):\n`,
 		body: 'Provide a LONGER description of the change (optional). Use "|" to break new line:\n',
 		breaking: "List any BREAKING CHANGES (optional):\n",
 		footer: "List any ISSUES CLOSED by this change (optional)",
@@ -60,6 +62,6 @@ module.exports = {
 	},
 
 	allowBreakingChanges: ["feat", "fix"],
-	subjectLimit: 72,
+	subjectLimit,
 	footerPrefix: "Related Issue Number:",
 };
