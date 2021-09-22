@@ -14,10 +14,18 @@
 
 
 ## Setup 
-### Commands
-Run these commands
+Before using this repository, you should run any kind of CLI template tool (eg; `create-react-app`) and then download this repository and extract its files into your project folder
 
-**Install Packages:** `yarn add --dev @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
+
+**Install Packages:**  Run this command `yarn add --dev @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
+
+**Create Release Labels:** In your github repository create the following PR labels:
+- `force-release:none`
+- `force-release:patch`
+- `force-release:minor`
+- `force-release:major`
+
+These can added to pull requests to specify what type of version bump should be used when running the release script. If none of these are used then the bump will be inferred according to the commits.
 ### Scripts
 
 Add these scripts to `package.json`
