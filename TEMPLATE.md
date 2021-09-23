@@ -10,14 +10,24 @@
 - [ ] Delete files
   - `package.json`
   - `yarn.lock`
-  - `
+  - `node_modules`
 
 
 ## Setup 
 Before using this repository, you should run any kind of CLI template tool (eg; `create-react-app`) and then download this repository and extract its files into your project folder
 
 
-**Install Packages:**  Run this command `yarn add --dev @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
+**Install Packages:**  Run this command `yarn add --dev standard-version @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
+
+**Setup Commitizen Config:** Add this to the bottom of `package.json`
+
+```json
+"config": {
+  "commitizen": {
+    "path": "node_modules/cz-customizable"
+  }
+}
+```
 
 **Create Release Labels:** In your github repository create the following PR labels:
 - `force-release:none`
