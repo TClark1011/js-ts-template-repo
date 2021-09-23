@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install\
+      - run: npm install
       - run: npm run release
         if: "!contains(github.event.pull_request.labels.*.name, 'force-release:patch') && !contains(github.event.pull_request.labels.*.name, 'force-release:minor') && !contains(github.event.pull_request.labels.*.name, 'force-release:major')"
       - run: npm run release -- --release-as patch
