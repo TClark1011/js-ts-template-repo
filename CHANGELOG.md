@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/TClark1011/js-ts-template-repo/compare/v1.5.2...v1.6.0) (2021-09-25)
+
+
+### Features
+
+* **workspace:** added github action returns to release code coverage ([e01bff6](https://github.com/TClark1011/js-ts-template-repo/commit/e01bff69e361b3e9543ca0cd306200f5a1839a74))
+
 ### [1.5.2](https://github.com/TClark1011/js-ts-template-repo/compare/v1.5.1...v1.5.2) (2021-09-23)
 
 ### [1.5.1](https://github.com/TClark1011/js-ts-template-repo/compare/v1.5.0...v1.5.1) (2021-09-23)
