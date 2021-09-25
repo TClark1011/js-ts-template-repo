@@ -12,9 +12,12 @@
 		"commitizen": "^4.2.4",
 		"cz-conventional-changelog": "^3.3.0",
 		"cz-customizable": "^6.3.0",
+		"eslint": "^7.32.0",
+		"eslint-plugin-react": "^7.26.0",
 		"husky": "^7.0.0",
+		"jest": "^27.2.1",
 		"lint-staged": "^11.1.2",
-		"prettier": "^2.4.0",
+		"prettier": "^2.4.1",
 		"standard-version": "^9.3.1"
 	},
 	"scripts": {
@@ -23,7 +26,7 @@
 		"commit": "cz",
 		"release": "standard-version",
 		"fix-husky": "npx husky set .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"' & npx husky set .husky/pre-commit 'npm run pre-commit'",
-		"test": "echo 'testing'",
+		"test": "jest",
 		"clean": "yarn clean:modules & yarn clean:build & yarn clean:lock",
 		"clean:modules": "rm -r --force node_modules",
 		"clean:build": "rm -r --force build",

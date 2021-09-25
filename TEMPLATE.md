@@ -14,7 +14,17 @@
 
 
 ## Setup 
-Before using this repository, you should run any kind of CLI template tool (eg; `create-react-app`) and then download this repository and extract its files into your project folder
+Before using this repository, you should run any kind of CLI template tool (eg; `create-react-app`) and then download this repository and extract its files into your project folder.
+
+**Copy Over Files:** Copy the following files and folders from this repository into the new project
+- `.commitlintrc.js`
+- `.cz-config.js`
+- `.gitignore` (if your project already has this file then copy its contents into the existing file)
+- `.lintstagedrc.json`
+- `.changelog.config.js`
+- `TEMPLATE.md`
+- `.husky`
+- `.github`
 
 
 **Install Packages:**  Run this command `yarn add --dev standard-version @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
