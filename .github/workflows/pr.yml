@@ -18,8 +18,6 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
-      - run: npm test -- --coverage
-      - uses: codecov/codecov-action@v2
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          directory: coverage
+      - uses: mattallty/jest-github-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

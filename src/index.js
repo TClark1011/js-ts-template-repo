@@ -1,3 +1,4 @@
+const {returnsHi} = require("./untested");
 
 const add = (a, b) => a + b;
 
