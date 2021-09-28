@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/TClark1011/js-ts-template-repo/compare/v1.8.0...v1.9.0) (2021-09-28)
+
+
+### Features
+
+* **workspace:** added instructions for getting badges ([b6c6cfb](https://github.com/TClark1011/js-ts-template-repo/commit/b6c6cfbd95dd761a03f383bce690306fe42f9eec))
+
 ## [1.8.0](https://github.com/TClark1011/js-ts-template-repo/compare/v1.7.0...v1.8.0) (2021-09-28)
 
 
