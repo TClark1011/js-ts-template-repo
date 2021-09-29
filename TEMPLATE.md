@@ -113,13 +113,18 @@ workflow
 - TODO: Prettier/ESLint
 - TODO: Add `no release` PR label to repo
 
+#### Setup LGTM
+Go to [LGTM](https://lgtm.com/) and setup your repository to allow for automated PR code reviews.
+
 #### Badges:
 
 Add the following html Code to your readme, replacing the text where specified, to add fancy badges.
+
 
 ```html
 <p align="center"> 
   <img alt="CI" src="*full-link-to-repo*/actions/workflows/CI.yml/badge.svg" />
   <img alt="license" src="https://img.shields.io/github/license/*github-username*/*name-of-repo*" />
+  <img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/*github-username*/*name-of-repo*.svg?logo=lgtm&logoWidth=18"/>
 </p>
 ```
