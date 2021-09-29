@@ -30,7 +30,8 @@
 		"clean": "yarn clean:modules & yarn clean:build & yarn clean:lock",
 		"clean:modules": "rm -r --force node_modules",
 		"clean:build": "rm -r --force build",
-		"clean:lock": "rm --force yarn.lock"
+		"clean:lock": "rm --force yarn.lock",
+		"build": "echo 'mock build'"
 	},
 	"config": {
 		"commitizen": {
