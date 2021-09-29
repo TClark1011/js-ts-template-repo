@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/TClark1011/js-ts-template-repo/compare/v1.9.0...v1.10.0) (2021-09-29)
+
+
+### Features
+
+* **workspace:** added build step to CI workflow ([ea90a86](https://github.com/TClark1011/js-ts-template-repo/commit/ea90a8682361166a677fbcac6e258fc11e9bacdd))
+
 ## [1.9.0](https://github.com/TClark1011/js-ts-template-repo/compare/v1.8.0...v1.9.0) (2021-09-28)
 
 
