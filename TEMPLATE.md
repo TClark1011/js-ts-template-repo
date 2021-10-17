@@ -105,8 +105,7 @@ package-lock.json
 # Ignore workflow folder created by `act` 
 workflow
 ```
-
-- **Skip Release:** You can skip 
+**IMPORTANT:** If you decide to use the `.gitignore` file included with a template, it is still important that you add `package-lock.json` to the end of the file (unless you are using NPM as your package manager for some unfathomable reason).
 
 ### Extra Steps
 
