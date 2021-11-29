@@ -26,6 +26,9 @@ Before using this repository, you should run any kind of CLI template tool (eg; 
 - `.husky`
 - `.github`
 
+**FOR MAC:** If you are on mac you need to run this command: `chmod ug+x .husky/* && chmod ug+x .git/hooks/*`
+
+**IMPORTANT:** If you used a project template and it's default branch is named `master` instead of `main`, you need to go into the git hooks and change any reference to the `main` branch to `master`
 
 **Install Packages:**  Run this command `yarn add --dev standard-version @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
 
@@ -109,8 +112,11 @@ workflow
 
 ### Extra Steps
 
-- TODO: Prettier/ESLint
 - TODO: Add `no release` PR label to repo
+
+#### Eslint 
+
+Follow eslint instructions [here](https://www.npmjs.com/package/eslint-config-thomas-clark)
 
 #### Setup LGTM
 Go to [LGTM](https://lgtm.com/) and setup your repository to allow for automated PR code reviews.
