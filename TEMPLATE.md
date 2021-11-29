@@ -27,7 +27,7 @@ Before using this repository, you should run any kind of CLI template tool (eg; 
 - `.github`
 
 
-**Install Packages:**  Run this command `yarn add --dev standard-version @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable`
+**Install Packages:**  Run this command `yarn add --dev standard-version @commitlint/config-conventional @commitlint/cli lint-staged husky@^7.0.0 commitizen cz-customizable is-ci`
 
 **Setup Commitizen Config:** Add this to the bottom of `package.json`
 
